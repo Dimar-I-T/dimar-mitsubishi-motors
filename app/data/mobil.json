@@ -1,0 +1,25 @@
+{
+  "data": [
+    { "name": "ECLIPSE CROSS (PHEV model)", "src": "/Mobil/EV/eclipse_cross_phev.jpg", "model": ["EVs/PHEV", "SUVs"] },
+    { "name": "OUTLANDER (PHEV model)", "src": "/Mobil/EV/outlander_phev.jpg", "model": ["EVs/PHEV", "SUVs"] },
+    { "name": "eK X EV", "src": "/Mobil/EV/ek_x_ev.jpg", "model": ["EVs/PHEV", "MINICARs"] },
+    { "name": "MINICAB EV", "src": "/Mobil/EV/minicab_miev.png", "model": ["EVs/PHEV"] },
+    { "name": "OUTLANDER (gasoline model)", "src": "/Mobil/SUV/outlander_gasoline_model.jpg", "model": ["SUVs"] },
+    { "name": "DESTINATOR", "src": "/Mobil/SUV/destinator.png", "model": ["SUVs"] },
+    { "name": "ECLIPSE CROSS (gasoline model)", "src": "/Mobil/SUV/eclipse_cross.jpg", "model": ["SUVs"] },
+    { "name": "ASX/OUTLANDER SPORT/RVR", "src": "/Mobil/SUV/asx.jpg", "model": ["SUVs"] },
+    { "name": "PAJERO SPORT/MONTERO SPORT", "src": "/Mobil/SUV/pajero_sport.jpg", "model": ["SUVs"] },
+    { "name": "XFORCE", "src": "/Mobil/SUV/xforce.png", "model": ["SUVs"] },
+    { "name": "TRITON / L200", "src": "/Mobil/Pickup/l200.png", "model": ["PICKUP"] },
+    { "name": "MIRAGE / SPACE STAR", "src": "/Mobil/CAR/mirage_g4.png", "model": ["CARs"] },
+    { "name": "MIRAGE G4 / ATTRAGE", "src": "/Mobil/CAR/mirage.jpg", "model": ["CARs"] },
+    { "name": "DELICA D:5", "src": "/Mobil/MPV/delica.png", "model": ["MPVs"] },
+    { "name": "XPANDER CROSS", "src": "/Mobil/MPV/xpander_cross.jpg", "model": ["MPVs"] },
+    { "name": "ECLIPSE", "src": "/Mobil/MPV/xpander.jpg", "model": ["MPVs"] },
+    { "name": "eK X", "src": "/Mobil/MINICAR/ek_x.png", "model": ["MINICARs"] },
+    { "name": "eK WAGON", "src": "/Mobil/MINICAR/ek_wagon.png", "model": ["MINICARs"] },
+    { "name": "DELICA MINI", "src": "/Mobil/MINICAR/delica_mini.jpg", "model": ["MINICARs"] },
+    { "name": "eK SPACE", "src": "/Mobil/MINICAR/ek_space.jpg", "model": ["MINICARs"] },
+    { "name": "MINICAB EV (gasoline)", "src": "/Mobil/MINICAR/minicab_miev.png", "model": ["MINICARs"] }
+  ]
+}
