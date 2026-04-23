@@ -58,7 +58,7 @@ export default function Products() {
                         >
                             <div className="w-[25px] h-[25px] max-md:w-[16px] max-md:h-[16px] rounded-full border-2 border-gray-400 flex items-center justify-center transition-colors duration-200 shrink-0">
                                 {selected === mdl && (
-                                    <div className="w-[15px] h-[15px] rounded-full bg-red-600" />
+                                    <div className="w-[15px] h-[15px] max-md:w-[8px] max-md:h-[8px] rounded-full bg-red-600" />
                                 )}
                             </div>
                             <span className={`text-[20px] max-md:text-[13px] text-white mb-1 transition-colors duration-200`}>
@@ -68,7 +68,7 @@ export default function Products() {
                     ))}
                 </div>
 
-                <div className="w-full h-[601px] max-md:h-[330px] overflow-y-auto flex flex-row flex-wrap gap-x-[10px] max-md:gap-x-[6px] gap-y-[15px] max-md:gap-y-[1px] px-[10px] py-[10px] max-md:px-[6px] max-md:py-[6px] z-20">
+                <div className="w-full h-[601px] max-md:h-[330px] overflow-y-auto flex flex-row max-md:flex-col md:flex-wrap gap-x-[10px] max-md:items-center max-md:gap-x-[6px] gap-y-[15px] max-md:gap-y-[1px] px-[10px] py-[10px] max-md:px-[6px] max-md:py-[6px] z-20">
                     {filtered.map((isi, index) => (
                         <div key={index} className="w-[337px] max-md:w-[180px] flex flex-col items-center gap-[10px] max-md:gap-[6px] px-[10px] py-[10px] max-md:px-[6px] max-md:py-[6px]">
                             <img src={isi.src} className="w-[337px] max-md:w-[180px] h-[223px] max-md:h-[119px] scale-[337/210] object-cover rounded-[20px]" />

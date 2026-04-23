@@ -85,7 +85,7 @@ export default function Hero() {
                 {tulisan_hero.map((isi, index) => (
                     <div
                         key={index}
-                        className={`w-full flex flex-row items-center gap-[15px] max-md:gap-[10px] transition-transform duration-[400ms] ease-in-out origin-left ${index === displayIndex ? "scale-[1.3] max-md:scale-[1.2]" : "scale-100"
+                        className={`w-full flex flex-row items-center gap-[15px] max-md:gap-[10px] transition-transform duration-[400ms] ease-in-out origin-left ${index === displayIndex ? "scale-[1.3] max-md:scale-[1.1]" : "scale-100"
                             }`}
                         style={{
                             transition: "transform 400ms ease-in-out, opacity 400ms ease-in-out",
